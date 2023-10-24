@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+
+
+<body>
+
+  
+    </section>
+
+
+    <h1>Calculator</h1>
+    <hr>
+    <!-- Below is the code for the calculator -->
+    <div class="wrapper">
+
+
+        <!-- display of the calculator -->
+        <div class="display">
+            <input type="text" name="inputDisplay" id="inputDisplay">
+        </div>
+
+        <!-- input buttons for the calculator, when the button is clicked if will call the add function which adds the corresponding character or symbol to the calculator display -->
+        <div class="buttons">
+            <ul>
+                <li><button onclick="erase()" id="clear">C</button></li>
+                <li><button onclick="add('%')" id="operator">%</button></li>
+                <li><button onclick="add('/')" id="operator">/</button></li>
+                <li><button onclick="add('7')">7</button></li>
+                <li><button onclick="add('8')">8</button></li>
+                <li><button onclick="add('9')">9</button></li>
+                <li><button onclick="add('*')" id="operator">*</button></li>
+                <li><button onclick="add('4')">4</button></li>
+                <li><button onclick="add('5')">5</button></li>
+                <li><button onclick="add('6')">6</button></li>
+                <li><button onclick="add('-')" id="operator">-</button></li>
+                <li><button onclick="add('1')">1</button></li>
+                <li><button onclick="add('2')">2</button></li>
+                <li><button onclick="add('3')">3</button></li>
+                <li><button onclick="add('+')" id="operator">+</button></li>
+                <li><button onclick="add('0')">0</button></li>
+                <li><button onclick="add('.')">,</button></li>
+                <li><button onclick="equals()" id="equals">=</button></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <script src="./js/calculator.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+/* Styling for the calculator */
+* {
+    margin:0;
+    padding:0;
+
+}
+
+.wrapper {
+margin:auto;
+background: cornsilk;
+width: 340px;
+border-radius: 5px;
+}
+
+.display input {
+width:94%;
+margin: 7px;
+height: 50px;
+text-align: right;
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    padding-left: 8px;
+    list-style-type: none;
+    overflow: auto;    
+}
+
+li{
+    float:left;
+}
+h1 {
+    margin:5px 30px;
+    text-align: center;
+    font-weight: bolder;
+    color:rgb(116, 116, 116);
+    background-color: rgb(212, 215, 221);
+}
+hr {
+    margin: 20px;
+}
+
+.buttons button{
+    width: 71px;
+    background-color: #3b48;
+    height: 55px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+#clear{
+    width: 142px;
+    background:silver ;
+}
+
+#equals{
+    width: 142px;
+    background:silver ;
+}
+
+
+#operator{
+    background: orange;
+}
